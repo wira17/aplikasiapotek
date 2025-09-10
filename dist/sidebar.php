@@ -9,6 +9,22 @@ $profil = mysqli_fetch_assoc(mysqli_query($conn, "SELECT nama FROM profil_apotek
 $nama_apotek = $profil['nama'] ?? 'Apotek-KU';
 ?>
 
+
+<style>
+.main-sidebar,
+.main-sidebar a,
+.main-sidebar .nav-link,
+.main-sidebar .menu-header,
+.main-sidebar .dropdown-menu li a {
+    color: #000 !important;
+}
+.main-sidebar .nav-link:hover,
+.main-sidebar .dropdown-menu li a:hover {
+    color: #000 !important;
+}
+</style>
+
+
 <div class="main-sidebar sidebar-style-2">
   <aside id="sidebar-wrapper">
     <!-- Sidebar Brand -->
@@ -21,16 +37,16 @@ $nama_apotek = $profil['nama'] ?? 'Apotek-KU';
 
     <ul class="sidebar-menu">
       <!-- Dashboard -->
-      <li class="menu-header">Dashboard</li>
+      <li class="menu-header"><i class="fas fa-home"></i> Dashboard</li>
       <li class="<?= basename($_SERVER['PHP_SELF']) == 'dashboard.php' ? 'active' : '' ?>">
-        <a href="dashboard.php" class="nav-link"><i class="fas fa-home"></i> <span>Dashboard</span></a>
+        <a href="dashboard.php" class="nav-link"><span>Dashboard</span></a>
       </li>
 
       <!-- Master Data -->
-      <li class="menu-header">Master Data</li>
+      <li class="menu-header"><i class="fas fa-database"></i> Master Data</li>
       <li class="dropdown">
         <a href="#" class="nav-link has-dropdown">
-          <i class="fas fa-pills"></i> <span>Stok Obat</span>
+          <span>Master Data</span>
         </a>
         <ul class="dropdown-menu">
           <li><a class="nav-link" href="data_obat.php"><i class="fas fa-list"></i> Daftar Obat</a></li>
@@ -39,33 +55,31 @@ $nama_apotek = $profil['nama'] ?? 'Apotek-KU';
         </ul>
       </li>
 
-      <!-- Penjualan -->
-      <li class="menu-header">Transaksi</li>
+      <!-- Transaksi -->
+      <li class="menu-header"><i class="fas fa-exchange-alt"></i> Transaksi</li>
       <li class="dropdown">
-        <a href="#" class="nav-link has-dropdown"><i class="fas fa-shopping-cart"></i> <span>Penjualan</span></a>
+        <a href="#" class="nav-link has-dropdown"><span>Transaksi</span></a>
         <ul class="dropdown-menu">
-          <li><a class="nav-link" href="transaksi_penjualan.php">Transaksi Penjualan</a></li>
-          <li><a class="nav-link" href="operasional.php">Biaya Operasional</a></li>
+          <li><a class="nav-link" href="transaksi_penjualan.php"><i class="fas fa-receipt"></i> Penjualan</a></li>
+          <li><a class="nav-link" href="operasional.php"><i class="fas fa-wallet"></i> Biaya Operasional</a></li>
         </ul>
       </li>
 
       <!-- Pelaporan -->
-      <li class="menu-header">Pelaporan</li>
+      <li class="menu-header"><i class="fas fa-file-alt"></i> Pelaporan</li>
       <li class="dropdown">
-        <a href="#" class="nav-link has-dropdown"><i class="fas fa-file-alt"></i> <span>Laporan</span></a>
+        <a href="#" class="nav-link has-dropdown"><span>Pelaporan</span></a>
         <ul class="dropdown-menu">
-          <li><a class="nav-link" href="laporan_penjualan.php">Laporan Penjualan</a></li>
-          <li><a class="nav-link" href="laporan_hutang.php">Laporan Hutang</a></li>
-          <li><a class="nav-link" href="laporan_laba_rugi.php">Laporan Laba Rugi</a></li>
+          <li><a class="nav-link" href="laporan_penjualan.php"><i class="fas fa-file-invoice-dollar"></i> Laporan Penjualan</a></li>
+          <li><a class="nav-link" href="laporan_hutang.php"><i class="fas fa-file-invoice"></i> Laporan Hutang</a></li>
+          <li><a class="nav-link" href="laporan_laba_rugi.php"><i class="fas fa-file-alt"></i>  Laba Rugi</a></li>
         </ul>
       </li>
 
       <!-- Setting -->
-      <li class="menu-header">Setting</li>
+      <li class="menu-header"><i class="fas fa-cogs"></i> Setting</li>
       <li class="dropdown">
-        <a href="#" class="nav-link has-dropdown">
-          <i class="fas fa-cogs"></i> <span>Pengaturan</span>
-        </a>
+        <a href="#" class="nav-link has-dropdown"><span>Setting</span></a>
         <ul class="dropdown-menu">
           <li><a class="nav-link" href="pengguna.php"><i class="fas fa-user"></i> Pengguna</a></li>
           <li><a class="nav-link" href="profil_apotek.php"><i class="fas fa-hospital"></i> Profil Apotek</a></li>
@@ -84,3 +98,4 @@ $nama_apotek = $profil['nama'] ?? 'Apotek-KU';
       </div>
   </aside>
 </div>
+

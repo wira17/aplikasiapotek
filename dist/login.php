@@ -146,8 +146,8 @@ if(!password_verify($password, $hash_password)){
       <img src="images/logoapp.png" alt="Logo PMJ">
     </div>
     <div class="app-title">
-      <h5>Sistem Informasi</h5>
-      <h6><strong>Penjualan Obat</strong></h6>
+      <h5>SISTEM INFORMASI</h5>
+      <h6><strong>PENJUALAN OBAT (APOTEK)</strong></h6>
     </div>
   <form method="POST" action="proses_login.php">
   <div class="form-group">

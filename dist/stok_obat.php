@@ -112,15 +112,15 @@ unset($_SESSION['active_tab']);
 
         <div class="card">
             <div class="card-header">
-              <h4>Stok Masuk Obat</h4>
+              <h4>Obat Masuk</h4>
             </div>
             <div class="card-body">
               <ul class="nav nav-tabs" id="stokTab" role="tablist">
                 <li class="nav-item">
-                  <a class="nav-link <?= $activeTab=='input'?'active':'' ?>" id="input-tab" data-toggle="tab" href="#input" role="tab">Input Stok Masuk</a>
+                  <a class="nav-link <?= $activeTab=='input'?'active':'' ?>" id="input-tab" data-toggle="tab" href="#input" role="tab">Input Obat Masuk</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link <?= $activeTab=='data'?'active':'' ?>" id="data-tab" data-toggle="tab" href="#data" role="tab">Data Stok Masuk</a>
+                  <a class="nav-link <?= $activeTab=='data'?'active':'' ?>" id="data-tab" data-toggle="tab" href="#data" role="tab">Data Obat Masuk</a>
                 </li>
               </ul>
 
