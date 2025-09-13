@@ -1,5 +1,6 @@
 # Aplikasi Manajemen Apotek
-<img width="1327" height="719" alt="Screen Shot 2025-09-10 at 08 44 04" src="https://github.com/user-attachments/assets/46bcc902-1be4-4019-bc1b-fba2a77b1e1a" />
+<img width="1435" height="800" alt="Screen Shot 2025-09-13 at 10 19 33" src="https://github.com/user-attachments/assets/18a49b69-fa7d-4538-be39-5145e4e8ae78" />
+
 
 # Sistem Manajemen Apotek
 
