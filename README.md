@@ -73,7 +73,12 @@ Dibuat menggunakan **PHP, MySQL, dan template Bootstrap Stisla** untuk memudahka
 3. Import database `apotek.sql` ke MySQL.  
 4. Buka browser dan akses: [http://localhost/apotek](http://localhost/apotek).  
 
----
+<br><br>
+## Catatan Update
+<img width="1439" height="670" alt="Screen Shot 2025-09-13 at 10 08 59" src="https://github.com/user-attachments/assets/61b0b8ef-e110-47a7-806c-d3519219d629" />
+- Penambahan captcha di Login
+- Mail setting untuk sender mail
+<br><br>
 
 ## Lisensi
 - Aplikasi ini **bebas digunakan**, **tidak boleh diperjualbelikan**.  
@@ -83,4 +88,9 @@ Dibuat menggunakan **PHP, MySQL, dan template Bootstrap Stisla** untuk memudahka
 ---
 
 **Info & Kontak:**  
-0821 7784 6209
+M. Wira  : 0821 7784 6209
+Jika aplikasi ini bermanfaat, kamu bisa mendukung pengembang dengan berdonasi melalui:
+BSI - 7134197557
+An. M. Wira Satria Buana
+
+
