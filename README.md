@@ -87,18 +87,18 @@ Dibuat menggunakan **PHP, MySQL, dan template Bootstrap Stisla** untuk memudahka
 
 ---
 
-## 📞 Info & Kontak  
+## Info dan Kontak
 **M. Wira**  
-📱 0821 7784 6209  
+0821 7784 6209  
 
 ---
 
-## 🙌 Dukung Proyek Ini  
+## Dukung pengembangan aplikasi ini
 Jika aplikasi ini bermanfaat, kamu bisa mendukung pengembang dengan berdonasi melalui:
 
 **Bank Syariah Indonesia (BSI)**  
-💳 **7134197557**  
-🧾 **a.n. M. Wira Satria Buana**
+**7134197557**  
+**a.n. M. Wira Satria Buana**
 
 
 
