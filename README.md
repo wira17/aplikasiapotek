@@ -90,6 +90,7 @@ Dibuat menggunakan **PHP, MySQL, dan template Bootstrap Stisla** untuk memudahka
 **Info & Kontak:**  
 M. Wira  : 0821 7784 6209
 Jika aplikasi ini bermanfaat, kamu bisa mendukung pengembang dengan berdonasi melalui:
+<br><br>
 BSI - 7134197557
 An. M. Wira Satria Buana
 
