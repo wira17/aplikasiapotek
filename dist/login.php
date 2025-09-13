@@ -170,6 +170,23 @@ if(!password_verify($password, $hash_password)){
     </div>
   </div>
 
+  <div class="form-group">
+  <label for="captcha">Kode Keamanan</label>
+  <div class="input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text"><i class="fas fa-shield-alt"></i></span>
+    </div>
+    <input id="captcha" type="text" class="form-control" name="captcha" required>
+  </div>
+  <div class="mt-2">
+    <img src="captcha.php" alt="CAPTCHA" id="captcha_image">
+    <a href="#" onclick="document.getElementById('captcha_image').src='captcha.php?'+Math.random(); return false;">⟳ Refresh</a>
+  </div>
+</div>
+
+
+
+  
   <div class="form-group text-center mt-4">
     <button type="submit" class="btn btn-primary btn-lg btn-block">
       <i class="fas fa-sign-in-alt"></i> Login
@@ -185,7 +202,7 @@ if(!password_verify($password, $hash_password)){
     <hr>
     <div class="text-center text-muted" style="font-size: 13px;">wira
       &copy; Apotek<br>
-      Info Trouble: <strong>M. Wira</strong> - <a href="tel:+6282177856209">0821-7786-6209</a>
+      Info Trouble: <strong>M. Wira</strong> - <a href="tel:+6282177856209">0821-7784-6209</a>
     </div>
   </div>
 

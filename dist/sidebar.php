@@ -83,6 +83,7 @@ $nama_apotek = $profil['nama'] ?? 'Apotek-KU';
         <ul class="dropdown-menu">
           <li><a class="nav-link" href="pengguna.php"><i class="fas fa-user"></i> Pengguna</a></li>
           <li><a class="nav-link" href="profil_apotek.php"><i class="fas fa-hospital"></i> Profil Apotek</a></li>
+          <li><a class="nav-link" href="mail_setting.php"><i class="fas fa-hospital"></i> Mail Setting</a></li>
         </ul>
       </li>
 
